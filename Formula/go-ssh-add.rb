@@ -15,6 +15,7 @@ class GoSshAdd < Formula
     cellar :any_skip_relocation
     sha256 '567fd532768ad4d7018e8fe943fbd018ed9b13372d22acc56d30d0425df52405' => :yosemite
     sha256 '9b756ec7e94b2d09e55ab701dfc1c972b1ef7183506b0ed8f10f81a89234a436' => :el_capitan
+    sha256 'bb33af7063e967cc7a9ee9a0a414ce8d556d69e1a74ced2cf1f1f2e59f02766d' => :sierra
   end
 
   go_resource 'golang.org/x/crypto' do
